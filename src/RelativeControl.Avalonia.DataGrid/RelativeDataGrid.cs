@@ -160,7 +160,7 @@ public class RelativeDataGrid : AvaloniaObject {
             Dictionary<int, IRelative<double>> values = getter(dataGrid);
             IRelative<double> defaultValue = values.GetValueOrDefault(-1, RelativeLength.Empty);
             Dispatcher.UIThread.InvokeAsync(() => {
-                foreach (var (index, column) in dataGrid.Columns.Index())
+                foreach (var (column, index) in dataGrid.Columns.Select((column, index) => (column, index)))
                     setter(column, values.GetValueOrDefault(index, defaultValue));
 
                 info1.ChangeRelativeApplyStatus(property, RelativeApplyStatus.Done);
