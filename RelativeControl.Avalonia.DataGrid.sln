@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BAA20E2F-9F5F-414B-BCD7-B008BDA9EC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadlessTest.RelativeControl.DataGrid", "HeadlessTest.RelativeControl.DataGrid\HeadlessTest.RelativeControl.DataGrid.csproj", "{62C1A203-A747-4B69-BC71-6E50CC311A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelativeControl.Avalonia.DataGrid", "src\RelativeControl.Avalonia.DataGrid\RelativeControl.Avalonia.DataGrid.csproj", "{62DA6834-4862-4EC1-9C33-BE29DC8337D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{55EDE8C0-5792-49EF-BFBC-3527F0292DD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.RelativeControl.DataGrid", "Demo.RelativeControl.DataGrid\Demo.RelativeControl.DataGrid\Demo.RelativeControl.DataGrid.csproj", "{3B63F2AF-8E95-4B85-8E70-19A004F2CEA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.RelativeControl.DataGrid.Android", "Demo.RelativeControl.DataGrid\Demo.RelativeControl.DataGrid.Android\Demo.RelativeControl.DataGrid.Android.csproj", "{1E248272-BDDF-410F-A7DD-95427D92D827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.RelativeControl.DataGrid.Desktop", "Demo.RelativeControl.DataGrid\Demo.RelativeControl.DataGrid.Desktop\Demo.RelativeControl.DataGrid.Desktop.csproj", "{5333C589-8E84-4563-A000-12BEFBF1CFF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.RelativeControl.DataGrid.iOS", "Demo.RelativeControl.DataGrid\Demo.RelativeControl.DataGrid.iOS\Demo.RelativeControl.DataGrid.iOS.csproj", "{47938E66-0A58-4558-8912-89A6D7FB5E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.RelativeControl.DataGrid.Browser", "Demo.RelativeControl.DataGrid\Demo.RelativeControl.DataGrid.Browser\Demo.RelativeControl.DataGrid.Browser.csproj", "{D37F3420-5931-4494-9C84-800B5BE07289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C1A203-A747-4B69-BC71-6E50CC311A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C1A203-A747-4B69-BC71-6E50CC311A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C1A203-A747-4B69-BC71-6E50CC311A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C1A203-A747-4B69-BC71-6E50CC311A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62DA6834-4862-4EC1-9C33-BE29DC8337D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62DA6834-4862-4EC1-9C33-BE29DC8337D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62DA6834-4862-4EC1-9C33-BE29DC8337D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62DA6834-4862-4EC1-9C33-BE29DC8337D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B63F2AF-8E95-4B85-8E70-19A004F2CEA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B63F2AF-8E95-4B85-8E70-19A004F2CEA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B63F2AF-8E95-4B85-8E70-19A004F2CEA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B63F2AF-8E95-4B85-8E70-19A004F2CEA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E248272-BDDF-410F-A7DD-95427D92D827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E248272-BDDF-410F-A7DD-95427D92D827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5333C589-8E84-4563-A000-12BEFBF1CFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5333C589-8E84-4563-A000-12BEFBF1CFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5333C589-8E84-4563-A000-12BEFBF1CFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5333C589-8E84-4563-A000-12BEFBF1CFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47938E66-0A58-4558-8912-89A6D7FB5E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47938E66-0A58-4558-8912-89A6D7FB5E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37F3420-5931-4494-9C84-800B5BE07289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37F3420-5931-4494-9C84-800B5BE07289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62C1A203-A747-4B69-BC71-6E50CC311A3F} = {BAA20E2F-9F5F-414B-BCD7-B008BDA9EC11}
+		{3B63F2AF-8E95-4B85-8E70-19A004F2CEA9} = {55EDE8C0-5792-49EF-BFBC-3527F0292DD0}
+		{1E248272-BDDF-410F-A7DD-95427D92D827} = {55EDE8C0-5792-49EF-BFBC-3527F0292DD0}
+		{5333C589-8E84-4563-A000-12BEFBF1CFF7} = {55EDE8C0-5792-49EF-BFBC-3527F0292DD0}
+		{47938E66-0A58-4558-8912-89A6D7FB5E68} = {55EDE8C0-5792-49EF-BFBC-3527F0292DD0}
+		{D37F3420-5931-4494-9C84-800B5BE07289} = {55EDE8C0-5792-49EF-BFBC-3527F0292DD0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.idea/
+RelativeControl.Avalonia.DataGrid.sln.DotSettings.user
+RelativeControl.Avalonia.DataGrid.sln.DotSettings
+global.json
